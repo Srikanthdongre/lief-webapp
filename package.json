@@ -1,1 +1,24 @@
-// Sample content for package.json
+{
+  "name": "lief-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "antd": "latest",
+    "@apollo/client": "latest",
+    "graphql": "latest",
+    "@auth0/nextjs-auth0": "latest",
+    "chart.js": "latest",
+    "prisma": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest"
+  }
+}
